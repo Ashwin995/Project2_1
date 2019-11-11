@@ -45,6 +45,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        btn_form = findViewById(R.id.btn_form);
+
         recyclerView = findViewById(R.id.recyclerView);
 
         recyclerView.setLayoutManager(new GridLayoutManager(this, 2));
